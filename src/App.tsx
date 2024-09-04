@@ -5,7 +5,7 @@ const App: React.FC = () => {
   return (
     <div className="relative h-screen w-screen bg-black text-white flex flex-col justify-center items-start p-8 overflow-hidden">
       <div className="absolute right-4 top-4 md:right-8 md:top-8 transform transition-transform duration-300 ease-in-out hover:scale-150">
-        <img src="/logo.png" alt="Logo" className="w-48 md:w-72 lg:w-96 transition-transform duration-300 ease-in-out" />
+        <img src="../public/logo.png" alt="Logo" className="w-48 md:w-72 lg:w-96 transition-transform duration-300 ease-in-out" />
       </div>
 
       <div className="relative z-10 space-y-8">
@@ -24,7 +24,7 @@ const App: React.FC = () => {
 
             <li>
               <a href="https://www.obsmc.it" target="_blank" rel="noopener noreferrer" className="inline-flex items-center space-x-2 text-white hover:text-blue-500 transition-colors">
-                <img src="/minecraft-icon.png" alt="Minecraft Icon" className="inline w-6 h-6" />
+                <img src="../public/minecraft-icon.png" alt="Minecraft Icon" className="inline w-6 h-6" />
                 <span>Working on <span className="text-blue-400">ObsMC</span> as a SrAdmin</span>
               </a>
             </li>
