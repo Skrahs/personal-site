@@ -32,7 +32,7 @@ const App: React.FC = () => {
             <li>
               <a href="https://github.com/Skrahs" target="_blank" rel="noopener noreferrer" className="inline-flex items-center space-x-2 text-blue-400 hover:text-blue-600 transition-colors">
                 <FaGithub className="text-blue-400" />
-                <span>Minecraft</span>
+                <span>Developing Casual Things</span>
               </a>
             </li>
 
